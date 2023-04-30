@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-flask-app
-        image: 879580385544.dkr.ecr.ap-south-1.amazonaws.com/jenkins-ecr:latest
+        image: 012333045906.dkr.ecr.ap-south-1.amazonaws.com/jenkins-ecr:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
